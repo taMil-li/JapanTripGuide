@@ -1,0 +1,16 @@
+.page-12 .logo-part {
+    position: relative;
+    top: -120px;
+    left: 0;
+    border: 2px solid #000;
+    margin: auto;
+    padding: 10px;
+}
+.page-12 .head {
+    font-weight: 900;
+}
+.page-12 .fieldset {
+    justify-content: space-between;
+    line-height: 1.3;
+    padding-top: 30px;
+}

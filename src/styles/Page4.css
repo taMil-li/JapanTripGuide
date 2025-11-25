@@ -1,0 +1,78 @@
+.page-4 {
+    background-image: url("../assets/front\ \(3\).jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', 'sans-serif';
+    color: #000;
+}
+
+.page-5 {
+    background-image: url("../assets/paulo-doi-6uTQmtqcAzs-unsplash.jpg");
+}
+.page-6 {
+    background-image: url("../assets/nakaharu-line-XrPytbWnFdI-unsplash.jpg");
+}
+.page-7 {
+    background-image: url("../assets/tianshu-liu-SBK40fdKbAg-unsplash.jpg");
+    background-position: left;
+}
+
+.page-8 {
+    background-image: url("../assets/shops.jpg");
+    background-position: left;
+}
+
+.page-9 {
+    background-image: url("../assets/tom-brunberg-q_1aQ_jXLr0-unsplash.jpg");
+    background-position: left;
+}
+
+.page-10 {
+    background-image: url("../assets/global-residence-index-LPdaW746WAw-unsplash.jpg");
+}
+
+.page-4 .left-part {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+
+.page-4 .second {
+    background-color: #ff0101ae;
+    width: 30px;
+    color: red;
+}
+
+.page-4 .third {
+    background-color: #e108087c;
+    width: 30px;
+    color: red;
+}
+
+.page-4 .fourth {
+    background-color: #e108083a;
+    width: 30px;
+    color: red;
+}
+
+.page-4 .para {
+    font-size: 12px;
+}
+
+.page-4 .left-part .line {
+    border: 1.5px solid #000;
+    margin-bottom: 5px;;
+}
+
+.page-4 .head {
+    font-weight: 900;
+}
+
+.page-4 .head3-container {
+    text-align: center;
+}
+
+.page-4 .fieldset {
+    padding: 10px;
+}

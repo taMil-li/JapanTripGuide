@@ -1,0 +1,64 @@
+.page-11 {
+    background-image: url("../assets/front\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', 'sans-serif';
+    color: #000;
+}
+.page-11 .fourth {
+    background-color: #e108083a;
+    height: 100%;
+}
+.page-11 .third {
+    background-color: #e1080878;
+    width: 90%;
+}
+.page-11 .second {
+    background-color: #fe0202af;
+    width: 90%;
+}
+.page-11 .first {
+    padding: 20px;
+    background-color: #fff;
+    width: 90%;
+}
+.page-11 .text-left {
+    text-align: left;
+}
+.page-11 .para {
+    font-size: 12px;
+}
+.page-11 .head {
+    font-weight: 900;
+}
+.page-11 .sub-head {
+    font-weight: bold;
+}
+
+.page-11 .line {
+    border: 1.3px solid #000;
+}
+
+.page-11 .fieldset {
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+
+.page-11 .logo-part {
+  position: relative;
+  top: -60px;
+  left:120px;
+}
+
+.page-11 .logo-part .caption {
+  font-size: 7px;
+}
+
+.page-11 .logo-part img {
+  width: 100%;
+  height: auto;
+  max-width: 30px;
+  object-fit: contain;
+}
