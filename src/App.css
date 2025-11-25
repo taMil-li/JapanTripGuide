@@ -14,7 +14,7 @@ body {
 
 .page {
   width: 100vw;
-  height: calc(100vw * 1.8);
+  height: calc(100vw * 2);
   margin-top: 20px;
   margin-bottom: 20px;
 }
