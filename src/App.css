@@ -26,6 +26,13 @@ body {
   }
 }
 
+@media only screen and (max-width: 933px) and (orientation: landscape) {
+  .page {
+    /* width: 40vw; */
+    height: calc(37vw * 2.8);
+  }
+}
+
 .d-flex {
   display: flex;
 }

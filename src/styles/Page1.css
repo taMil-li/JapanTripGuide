@@ -81,6 +81,12 @@
   border: 1.5px solid #fff;
 }
 
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .part-1 .bottom-part .line {
+    width: 200px !important;
+  }
+}
+
 
 .page-1 .right-part {
   position: relative;
@@ -88,5 +94,6 @@
   right: 0;
   height: 100%;
   width: 20%;
+  color: #e108087c;
   background-color: #e108087c;
 }
