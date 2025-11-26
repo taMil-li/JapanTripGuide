@@ -4,7 +4,7 @@ import "../styles/Page2.css";
 function Page2() {
   return (
     <div className="page-2 page">
-      <div className="left-part">
+      <div className="left-part d-flex flex-column">
         <div className="top-part">
             <h3 className="table-of-content">TABLE OF CONTENT</h3>
             <hr className="line"/>
@@ -33,8 +33,6 @@ function Page2() {
         <div className="bottom-part">
           <div className="logo-part d-flex flex-column align-items-center justify-content-center">
             <img src={vittaemoneyLogo} alt="Vittae Money Logo" />
-            <p className="logo-name">VITTAE</p>
-            <small className="caption">Your Money Story</small>
           </div>
         </div>
       </div>

@@ -1,61 +1,53 @@
 .page-3 {
-    background-image: url("../assets/front\ \(3\).jpg");
-    background-size: cover;
-    background-position: right;
-    font-family: 'Arial', 'sans-serif';
+  background-image: url("../assets/front\ \(3\).jpg");
+  background-size: cover;
+  background-position: right;
 }
 
 .page-3 .left-part {
-    width: 10%;
-    height: 100%;
-    background-color: #e108087c;
+  width: 10%;
+  height: 100%;
+  background-color: var(--accent-color);
 }
 
 .page-3 .right-part {
-    background-color: #e108087c;
-    align-items: center;
-    justify-content: space-around;
-    width: 65%;
-    position: relative;
-    right: 0;
-    margin-left: auto;
+  background-color: var(--accent-color);
+  width: 65%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.5% 3%;
+  height: 100%;
 }
 
 .page-3 .top-part {
-    padding: 20px;
+  padding: 1.5vh 0;
 }
-
-.page-3 .head1,.page-3 .head2 {
-    font-size: 20px;
+.page-3 .head1,
+.page-3 .head2 {
+  font-size: 20px;
 }
-
 .page-3 .top-part .line {
-    border: 1.5px solid #fff;
-    margin-right: -20px;
+  border: var(--white-border) solid #fff;
 }
-
 .page-3 .content-1-1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.page-3 .para {
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-.page-3 .para {
-    font-size: 14px;
+.page-3 .bottom-part {
+    align-self: flex-end;
 }
 
 .page-3 .logo-part {
-  position: relative;
-  top: 30px;
-  right: -80px;
-  bottom: 0;
+  margin-top: 2vh;
+  
 }
-
-.page-3 .logo-part .caption {
-  font-size: 7px;
-}
-
 .page-3 .logo-part img {
-  width: 100%;
+  max-width: 130px;
   height: auto;
-  max-width: 46px;
-  object-fit: contain;
 }

@@ -15,19 +15,15 @@
 
 .page-2 .logo-part {
   position: relative;
-  top: 300px;
+  top: 280px;
   left: -70px;
   bottom: 0;
-}
-
-.page-2 .logo-part .caption {
-  font-size: 7px;
 }
 
 .page-2 .logo-part img {
   width: 100%;
   height: auto;
-  max-width: 50px;
+  max-width: 150px;
   object-fit: contain;
 }
 

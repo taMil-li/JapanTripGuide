@@ -1,3 +1,15 @@
+/* Reset and shared variables */
+:root {
+  --bg-color: #c3abab;
+  --accent-color: #e108087c;
+  --page-height-mult: 2.4; /* multiplier used in calc(100vw * x) */
+  --page-margin-vertical: 20px;
+  --max-site-width: 100vw;
+  --white-border: 1.5px;
+  --black-border: 1.5px;
+  --font-family-sans: "Arial", "sans-serif";
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,42 +21,37 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: #c3abab;
+  background-color: var(--bg-color);
+  font-family: var(--font-family-sans);
+  max-width: var(--max-site-width);
 }
 
+/* Page container: sizes intentionally preserved to avoid layout changes */
 .page {
-  width: 100vw;
-  height: calc(100vw * 2);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
+  height: calc(100vw * var(--page-height-mult));
+  margin-bottom: var(--page-margin-vertical);
+  align-items: center;
 }
 
 @media (min-width: 768px) {
   .page {
     width: 40vw;
-    height: calc(40vw * 1.414);
+    height: calc(40vw * 2);
   }
 }
 
 @media only screen and (max-width: 933px) and (orientation: landscape) {
   .page {
-    /* width: 40vw; */
-    height: calc(37vw * 2.8);
+    height: calc(40vw * 2.8);
   }
 }
 
-.d-flex {
-  display: flex;
-}
+/* Small helper utilities kept minimal and generic */
+.d-flex { display: flex; }
+.flex-column { flex-direction: column; }
+.justify-content-center { justify-content: center; }
+.align-items-center { align-items: center; }
 
-.flex-column {
-  flex-direction: column;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
-
-.align-items-center {
-  align-items: center;
-}
+/* Exported variables for page styles to reference (no layout changes) */
+.page img { display: block; max-width: 100%; height: auto; }

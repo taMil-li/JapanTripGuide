@@ -5,7 +5,28 @@
     border: 2px solid #000;
     margin: auto;
     padding: 10px;
+    background-color: #000;
 }
+
+.page-12 {
+    display: flex;
+    align-items: center;
+}
+
+.page-12 .fourth, .page-12 .third, .page-12 .second, .page-12 .first {
+    height: 100%;
+}
+
+.page-12 .fourth {
+    width: 100%;
+}
+
+.page-12 .third {width: 89%;}
+.page-12 .second {width: 87%;}
+.page-12 .first {
+    width: 85%;
+}
+
 .page-12 .head {
     font-weight: 900;
 }

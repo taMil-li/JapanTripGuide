@@ -1,6 +1,6 @@
 import "../styles/Page11.css";
 import "../styles/Page12.css";
-import vittaemoneyLogo from "../assets/vittaemoneylogo.png";
+import vittaemoneyLogo2 from "../assets/vittaemoneylogo2.png";
 
 function Page12() {
   return (
@@ -33,9 +33,7 @@ function Page12() {
                 </p>
                 <br />
                 <div className="logo-part d-flex flex-column align-items-center justify-content-center">
-                  <img src={vittaemoneyLogo} alt="Vittae Money Logo" />
-                  <p className="logo-name">VITTAE</p>
-                  <small className="caption">Your Money Story</small>
+                  <img src={vittaemoneyLogo2} alt="Vittae Money Logo" />
                 </div>
               </fieldset>
             </div>

@@ -8,7 +8,7 @@ import Page7 from './components/Page7.jsx'
 import Page8 from './components/Page8.jsx'
 import Page9 from './components/Page9.jsx'
 import Page10 from './components/Page10.jsx'
-import Page11 from './components/Page11.jsx'
+// import Page11 from './components/Page11.jsx'
 import Page12 from './components/Page12.jsx'
 
 
@@ -16,7 +16,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="page">
+    <>
       <Page1 />
       <Page2 />
       <Page3 />
@@ -27,11 +27,11 @@ function App() {
       <Page8 />
       <Page9 />
       <Page10 />
-      <Page11 />
+      {/* <Page11 /> Page Neglected */}
       <Page12 />
 
 
-    </div>
+    </>
   )
 }
 

@@ -7,6 +7,8 @@
   background-position: center;
   font-family: "Arial", "sans-serif";
   /* overflow-y: hidden; */
+  display: flex;
+  align-items: center;
 }
 
 
@@ -28,20 +30,16 @@
   left: -40px;
 }
 
-.page-1 .logo-part .caption {
-  font-size: 7px;
-}
-
 .page-1 .logo-part img {
   width: 100%;
   height: auto;
-  max-width: 50px;
+  max-width: 150px;
   object-fit: contain;
 }
 
 .page-1 .content-part {
   position: relative;
-  top: 40%;
+  top: 30%;
   margin-left: 20px;
 }
 
@@ -72,18 +70,24 @@
 
 .page-1 .bottom-part {
   position: relative;
-  top: 55%;
+  top: 45%;
   margin-left: 20px;
 }
 
 .page-1 .bottom-part .line {
-  width: 380px;
+  width: 300px;
   border: 1.5px solid #fff;
+}
+
+@media(min-width: 768px) {
+  .page .bottom-part .line {
+    width: 380px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
   .part-1 .bottom-part .line {
-    width: 200px !important;
+    width: 200px;
   }
 }
 
