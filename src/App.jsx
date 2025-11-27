@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Page1 />
-      <Suspense fallback={<div className="loading"></div>}>
+      <Suspense fallback={<div className="loading">Loading...</div>}>
         <Page2 />
         <Page3 />
         <Page4 />
