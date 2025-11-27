@@ -1,4 +1,19 @@
-/* Reset and shared variables */
+@font-face {
+    font-family: 'Gilroy-regular-thin';
+    src: url('assets/Gilroy-Regular.woff2') format('woff2'),
+         url('assets/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-regular-bold';
+    src: url('assets/Gilroy-Regular.woff2') format('woff2'),
+         url('assets/Gilroy-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+/* variables */
 :root {
   --bg-color: #c3abab;
   --accent-color: #e108087c;
@@ -8,6 +23,8 @@
   --white-border: 1.5px;
   --black-border: 1.5px;
   --font-family-sans: "Arial", "sans-serif";
+  --font-family-gilroy-thin: "Gilroy-regular-thin";
+  --font-family-gilroy-bold: "Gilroy-regular-bold";
 }
 
 *, *::before, *::after {

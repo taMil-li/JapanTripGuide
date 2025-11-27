@@ -6,6 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
+  font-family: var(--font-family-gilroy-thin);
 }
 .page-11 .fourth { background-color: #e108083a; height: 100%; width: 10%; }
 .page-11 .third { background-color: #e1080878; width: 30%; display:flex; align-items:center; justify-content:center; }
@@ -13,7 +14,7 @@
 .page-11 .first { padding: 20px; background-color: #fff; width: 30%; display:flex; flex-direction:column; }
 .page-11 .text-left { text-align: left; }
 .page-11 .para { font-size: 12px; }
-.page-11 .head { font-weight: 900; }
+.page-11 .head { font-family: var(--font-family-sans); font-weight: 900; }
 .page-11 .sub-head { font-weight: bold; }
 .page-11 .line { border: 1.3px solid #000; }
 .page-11 .fieldset { padding: 10px; height: 100%; text-align: center; display:flex; align-items:center; justify-content:center; }
