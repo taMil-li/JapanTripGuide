@@ -27,7 +27,7 @@
     width: 85%;
 }
 
-.page-12 .head {
+.page-12 .head, .head1, .head {
     font-weight: 900;
 }
 .page-12 .fieldset {

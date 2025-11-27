@@ -1,23 +1,21 @@
 /* Page 2 */
 
 .page-2 {
-  background-image: url("../assets/sakuara.jpg");
+  background-image: url("../assets/sakuara.avif");
   background-size: cover;
   background-position: center;
-  font-family: "Arial", "sans-serif";
+  font-family: var(--font-family-sans);
 }
 
 .page-2 .left-part {
     width: 60%;
     height: 100%;
     background-color: #e108087c;
+    justify-content: space-between;
 }
 
 .page-2 .logo-part {
-  position: relative;
-  top: 280px;
-  left: -70px;
-  bottom: 0;
+  align-self: flex-start;
 }
 
 .page-2 .logo-part img {
@@ -26,8 +24,6 @@
   max-width: 150px;
   object-fit: contain;
 }
-
-
 
 .page-2 .top-part {
     margin-left: 40px;

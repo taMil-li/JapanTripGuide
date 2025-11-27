@@ -1,4 +1,4 @@
-import vittaemoneyLogo from "../assets/vittaemoneylogo.png";
+import vittaemoneyLogo from "../assets/vittaemoneylogo.avif";
 import "../styles/Page1.css"
 
 function Page1() {

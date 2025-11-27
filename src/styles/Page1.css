@@ -2,11 +2,10 @@
 /* Page 1 */
 
 .page-1 {
-  background-image: url("../assets/front\ \(3\).jpg");
+  background-image: url("../assets/front\ \(3\).avif");
   background-size: cover;
   background-position: center;
-  font-family: "Arial", "sans-serif";
-  /* overflow-y: hidden; */
+  font-family: var(--font-family-sans);
   display: flex;
   align-items: center;
 }
@@ -16,18 +15,23 @@
   height: 100%;
   width: 65%;
   background-color: #e108087c;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.page-1 .top-part {
+  height: 100%;
 }
 
 
 .page-1 .content {
-  justify-content: center;
+  height: 60%;
+  justify-content: space-between;
   width: 70%;
 }
 
 .page-1 .logo-part {
-  position: relative;
-  top: 20px;
-  left: -40px;
+  align-self: flex-start;
 }
 
 .page-1 .logo-part img {
@@ -37,16 +41,9 @@
   object-fit: contain;
 }
 
-.page-1 .content-part {
-  position: relative;
-  top: 30%;
-  margin-left: 20px;
-}
-
 .page-1 .content-part .head {
   font-size: 18px;
   word-break: break-all;
-  /* font-weight: bold; */
   margin-bottom: 10px;
 }
 .page-1 .content-part .line {
@@ -55,6 +52,11 @@
   margin-left: -20px;
 }
 
+/* .intro-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
 
 .page-1 .country {
   font-size: 100px;
@@ -62,6 +64,7 @@
   left: 49vw;
   width: 20px;
   font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .page-1 .country .dot {
   font-size: 60px;
@@ -69,20 +72,12 @@
 }
 
 .page-1 .bottom-part {
-  position: relative;
-  top: 45%;
-  margin-left: 20px;
+  margin-bottom:20px;
 }
 
 .page-1 .bottom-part .line {
   width: 300px;
   border: 1.5px solid #fff;
-}
-
-@media(min-width: 768px) {
-  .page .bottom-part .line {
-    width: 380px;
-  }
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {

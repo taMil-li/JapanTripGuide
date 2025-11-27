@@ -1,6 +1,6 @@
 import "../styles/Page11.css";
 import "../styles/Page12.css";
-import vittaemoneyLogo2 from "../assets/vittaemoneylogo2.png";
+import vittaemoneyLogo2 from "../assets/vittaemoneylogo2.avif";
 
 function Page12() {
   return (
@@ -33,7 +33,7 @@ function Page12() {
                 </p>
                 <br />
                 <div className="logo-part d-flex flex-column align-items-center justify-content-center">
-                  <img src={vittaemoneyLogo2} alt="Vittae Money Logo" />
+                  <img src={vittaemoneyLogo2} loading="lazy" alt="Vittae Money Logo" />
                 </div>
               </fieldset>
             </div>

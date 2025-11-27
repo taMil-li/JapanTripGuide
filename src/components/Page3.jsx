@@ -1,5 +1,5 @@
 import "../styles/Page3.css";
-import vittaemoneyLogo from "../assets/vittaemoneylogo.png";
+import vittaemoneyLogo from "../assets/vittaemoneylogo.avif";
 
 function Page3() {
   return (
@@ -48,7 +48,7 @@ function Page3() {
         </div>
         <div className="bottom-part">
           <div className="logo-part d-flex flex-column align-items-center justify-content-center">
-            <img src={vittaemoneyLogo} alt="Vittae Money Logo" />
+            <img src={vittaemoneyLogo} loading="lazy" alt="Vittae Money Logo" />
           </div>
         </div>
       </div>
