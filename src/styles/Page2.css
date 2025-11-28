@@ -36,6 +36,7 @@
 .page-2 .head {
   font-weight: 900 !important;
   font-size: large;
+  margin-top: 20px;
 }
 .page-2 .line {
     border: 2px solid #fff;

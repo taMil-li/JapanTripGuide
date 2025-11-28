@@ -12,7 +12,7 @@
 
 
 .page-1 .left-part {
-  min-height: stretch;
+  min-height: inherit;
   width: 65%;
   background-color: #e108087c;
   justify-content: space-between;
@@ -25,7 +25,7 @@
 
 
 .page-1 .content {
-  max-height: stretch;
+  max-height: inherit;
   justify-content: space-around;
   width: 70%;
 }
@@ -70,6 +70,7 @@
   /* position: absolute;
   left: 49vw; */
   width: 20px;
+  line-height: 0.9;
   justify-content: center;
   font-weight: bold;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

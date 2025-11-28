@@ -14,6 +14,7 @@ function Page2() {
               <li>1.1 Introduction to this guide</li>
               <li>1.2 How We Research</li>
             </ul>
+            <br/>
             <li className="sub-head">Expense Breakdown:</li>
             <ul type="none" className="sub-list">
               <li>2.1 Accommodation</li>
@@ -24,6 +25,7 @@ function Page2() {
               <li>2.6 Flights</li>
               <li>2.7 Visa + SIM + Insurance</li>
             </ul>
+            <br/>
             <li className="sub-head">Strategic Summary</li>
             <ul type="none" className="sub-list">
               <li>3.1 Recap</li>

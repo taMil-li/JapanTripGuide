@@ -10,6 +10,7 @@ const Page7 = lazy(() => import("./components/Page7.jsx"));
 const Page8 = lazy(() => import("./components/Page8.jsx"));
 const Page9 = lazy(() => import("./components/Page9.jsx"));
 const Page10 = lazy(() => import("./components/Page10.jsx"));
+const Page11 = lazy(() => import("./components/Page11.jsx"));
 const Page12 = lazy(() => import("./components/Page12.jsx"));
 
 import "./App.css";
@@ -28,7 +29,7 @@ function App() {
         <Page8 />
         <Page9 />
         <Page10 />
-        {/* <Page11 /> Page Neglected */}
+        <Page11 />
         <Page12 />
       </Suspense>
     </>
