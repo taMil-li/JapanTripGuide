@@ -38,7 +38,7 @@
   width: 65%;
   padding: 20px;
   background-color: #fff;
-  min-height: stretch;
+  min-height: inherit;
   /* height: 100%; */
 }
 
@@ -46,7 +46,7 @@
 .page-4 .third,
 .page-4 .fourth {
   width: clamp(20px, 3vw, 35px);
-  min-height: stretch; 
+  min-height: inherit; 
   color: #e108083a
 }
 .page-4 .second {

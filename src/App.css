@@ -47,7 +47,7 @@ body {
 
 .page {
   width: 100%;
-  min-height: calc(40vw * 5);
+  min-height: calc(40vw * 4.5);
   margin-bottom: var(--page-margin-vertical);
   align-items: center;
 }
@@ -66,7 +66,7 @@ body {
 
 @media(min-width: 601px) {
   .page {
-    min-height: calc(40vw * 1.7);
+    min-height: calc(40vw * 1.5);
   }
 }
 
@@ -74,19 +74,19 @@ body {
 @media (min-width: 767px) {
   .page {
     width: 40vw;
-    min-height: calc(40vw * 2);
+    min-height: calc(40vw * 1.8);
   }
 }
 
 @media(min-width: 768px) and (max-width: 933px) {
   .page {
-    min-height: calc(40vw * 2.4)
+    min-height: calc(40vw * 2.2)
   }
 }
 
 @media only screen and (max-width: 933px) and (orientation: landscape) {
   .page {
-    min-height: calc(40vw * 2.8);
+    min-height: calc(40vw * 2.6);
   }
 }
 /* 
@@ -98,13 +98,13 @@ body {
 
 @media (min-width: 1190px) {
   .page {
-    min-height: calc(40vw * 1.45);
+    min-height: calc(40vw * 1.4);
   }
 }
 
 @media (min-width:1500px ) {
   .page {
-    min-height: calc(40vw * 1.2);
+    min-height: calc(40vw * 1.1);
   }
 }
 /*

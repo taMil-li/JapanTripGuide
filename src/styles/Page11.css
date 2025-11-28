@@ -17,5 +17,5 @@
 .page-11 .head { font-family: var(--font-family-sans); font-weight: 900; }
 .page-11 .sub-head { font-weight: bold; }
 .page-11 .line { border: 1.3px solid #000; }
-.page-11 .page-11 .logo-part { display:flex; justify-content:center; align-items: center;; margin-top: 1rem; }
+.page-11 .logo-part { display:flex; justify-content:center; align-items: center; margin-top: 1rem; }
 .page-11 .logo-part img { max-width: 65px; height: auto; object-fit: contain; padding: 0; }
