@@ -4,7 +4,6 @@
   background-image: url("../assets/sakuara.avif");
   background-size: cover;
   background-position: center;
-  min-height: inherit;
   font-family: var(--font-family-montserrat);
 }
 

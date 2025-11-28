@@ -86,7 +86,7 @@ body {
 
 @media only screen and (max-width: 933px) and (orientation: landscape) {
   .page {
-    min-height: calc(40vw * 2.6);
+    min-height: calc(40vw * 2.4);
   }
 }
 /* 
@@ -98,7 +98,7 @@ body {
 
 @media (min-width: 1190px) {
   .page {
-    height: calc(40vw * 1.2);
+    min-height: calc(40vw * 1.3);
   }
 }
 

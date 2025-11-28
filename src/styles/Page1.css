@@ -102,7 +102,7 @@
   position: relative;
   margin-left: 30%;
   right: 0;
-  min-height: stretch; 
+  min-height: inherit; 
   width: 20%;
   color: #e108087c;
   background-color: #e108087c;

@@ -1,12 +1,12 @@
+.page-12 {
+    display: flex;
+    align-items: center;
+}
+
 .page-12 .logo-part {
     /* margin-top: 30%; */
     margin-bottom: auto;
     padding: 10px;
-}
-
-.page-12 {
-    display: flex;
-    align-items: center;
 }
 
 .page-12 .fourth, .page-12 .third, .page-12 .second, .page-12 .first {
