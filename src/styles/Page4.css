@@ -38,14 +38,16 @@
   width: 65%;
   padding: 20px;
   background-color: #fff;
-  height: 100%;
+  min-height: stretch;
+  /* height: 100%; */
 }
 
 .page-4 .second,
 .page-4 .third,
 .page-4 .fourth {
   width: clamp(20px, 3vw, 35px);
-  height: 100%;
+  min-height: stretch; 
+  color: #e108083a
 }
 .page-4 .second {
   background-color: #ff0101ae;

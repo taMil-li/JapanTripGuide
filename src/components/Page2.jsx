@@ -6,9 +6,9 @@ function Page2() {
     <div className="page-2 page">
       <div className="left-part d-flex flex-column">
         <div className="top-part">
-          <h3 className="table-of-content">TABLE OF CONTENT</h3>
+          <h3 className="head">TABLE OF CONTENT</h3>
           <hr className="line" />
-          <ol className="table-of-content-list">
+          <ol className="table-of-content">
             <li className="sub-head">Introduction</li>
             <ul type="none" className="sub-list">
               <li>1.1 Introduction to this guide</li>

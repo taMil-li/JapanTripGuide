@@ -4,18 +4,23 @@
   background-image: url("../assets/sakuara.avif");
   background-size: cover;
   background-position: center;
-  font-family: var(--font-family-sans);
+  min-height: 100%;
+  font-family: var(--font-family-montserrat);
 }
 
 .page-2 .left-part {
-    width: 60%;
-    height: 100%;
-    background-color: #e108087c;
+    max-width: 65%;
+    min-height: stretch;
+    /* height: 100%; */
+    font-size: smaller;
+    background-color: #e10808a8;
     justify-content: space-between;
+    padding-right: 10px;    
 }
 
 .page-2 .logo-part {
   align-self: flex-start;
+  margin-top: auto;
 }
 
 .page-2 .logo-part img {
@@ -26,10 +31,12 @@
 }
 
 .page-2 .top-part {
-    margin-left: 40px;
-    position: relative;
-    top: 35px;
-    margin-left: 30px;
+    margin: 30px 0 0 30px;
+}
+
+.page-2 .head {
+  font-weight: 900 !important;
+  font-size: large;
 }
 .page-2 .line {
     border: 2px solid #fff;
@@ -37,7 +44,7 @@
     width: 90%;
 }
 
-.page-2 .table-of-content-list {
+.page-2 .table-of-content {
     margin-top: 10px;
     margin-left: 17px;
     line-height: 1.4;
@@ -45,6 +52,7 @@
 
 .page-2 .sub-head {
     font-weight: bold;;
+    font-size: medium;
 }
 
 .page-2 .sub-list {

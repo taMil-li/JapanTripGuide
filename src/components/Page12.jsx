@@ -8,8 +8,8 @@ function Page12() {
       <div className="fourth d-flex justify-content-center">
         <div className="third d-flex justify-content-center">
           <div className="second d-flex justify-content-center">
-            <div className="first">
-              <fieldset className="fieldset d-flex flex-column">
+            <div className="first d-flex flex-column justify-content-center">
+              <section className="fieldset d-flex flex-column">
                 <div className="header">
                   <h2 className="head">CONCLUSION</h2>
                   <hr className="line" />
@@ -35,7 +35,7 @@ function Page12() {
                 <div className="logo-part d-flex flex-column align-items-center justify-content-center">
                   <img src={vittaemoneyLogo2} loading="lazy" alt="Vittae Money Logo" />
                 </div>
-              </fieldset>
+              </section>
             </div>
           </div>
         </div>

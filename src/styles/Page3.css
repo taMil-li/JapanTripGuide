@@ -2,11 +2,13 @@
   background-image: url("../assets/front\ \(3\).avif");
   background-size: cover;
   background-position: right;
+  font-family: var(--font-family-montserrat);
 }
 
 .page-3 .left-part {
   width: 10%;
-  height: 100%;
+  color: #e10808;
+  min-height: stretch; 
   background-color: var(--accent-color);
 }
 
@@ -18,7 +20,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 2.5% 3%;
-  height: 100%;
+  min-height: stretch;
 }
 
 .page-3 .top-part {
@@ -28,7 +30,7 @@
 .page-3 .head2 {
   font-size: 20px;
 }
-.page-3 .top-part .line {
+.page-3 .line {
   border: var(--white-border) solid #fff;
 }
 .page-3 .content-1-1 {

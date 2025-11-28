@@ -5,14 +5,14 @@
   background-image: url("../assets/front\ \(3\).avif");
   background-size: cover;
   background-position: center;
-  font-family: var(--font-family-sans);
   display: flex;
   align-items: center;
+  font-family: var(--font-family-montserrat);
 }
 
 
 .page-1 .left-part {
-  height: 100%;
+  min-height: stretch;
   width: 65%;
   background-color: #e108087c;
   justify-content: space-between;
@@ -20,18 +20,19 @@
 }
 
 .page-1 .top-part {
-  height: 100%;
+  min-height: 100%;
 }
 
 
 .page-1 .content {
-  height: 60%;
-  justify-content: space-between;
+  max-height: stretch;
+  justify-content: space-around;
   width: 70%;
 }
 
 .page-1 .logo-part {
   align-self: flex-start;
+  margin-bottom: auto;
 }
 
 .page-1 .logo-part img {
@@ -41,32 +42,40 @@
   object-fit: contain;
 }
 
+.page-1 .content-part {
+  margin-bottom: auto;
+}
+
 .page-1 .content-part .head {
   font-size: 18px;
   word-break: break-all;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .page-1 .content-part .line {
   width: 80%;
   border: 1.5px solid #fff;
   margin-left: -20px;
+  margin-bottom: 10px;
 }
 
-/* .intro-text {
-  white-space: nowrap;
+.intro-text {
+  /* white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-} */
-
+  text-overflow: ellipsis; */
+  font-size: smaller;
+}
+ 
 .page-1 .country {
   font-size: 100px;
-  position: absolute;
-  left: 49vw;
+  /* position: absolute;
+  left: 49vw; */
   width: 20px;
+  justify-content: center;
   font-weight: bold;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
 }
-.page-1 .country .dot {
+.page-1 .dot {
   font-size: 60px;
   padding-left: 5px;
 }
@@ -91,7 +100,7 @@
   position: relative;
   margin-left: 30%;
   right: 0;
-  height: 100%;
+  min-height: stretch; 
   width: 20%;
   color: #e108087c;
   background-color: #e108087c;

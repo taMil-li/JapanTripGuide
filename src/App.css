@@ -25,6 +25,7 @@
   --font-family-sans: "Arial", "sans-serif";
   --font-family-gilroy-thin: "Gilroy-regular-thin";
   --font-family-gilroy-bold: "Gilroy-regular-bold";
+  --font-family-montserrat: 'Montserrat', 'sans-serif';
 }
 
 *, *::before, *::after {
@@ -46,7 +47,7 @@ body {
 
 .page {
   width: 100%;
-  height: calc(40vw * 5);
+  min-height: calc(40vw * 5);
   margin-bottom: var(--page-margin-vertical);
   align-items: center;
 }
@@ -65,7 +66,7 @@ body {
 
 @media(min-width: 601px) {
   .page {
-    height: calc(40vw * 1.7);
+    min-height: calc(40vw * 1.7);
   }
 }
 
@@ -73,19 +74,19 @@ body {
 @media (min-width: 767px) {
   .page {
     width: 40vw;
-    height: calc(40vw * 2);
+    min-height: calc(40vw * 2);
   }
 }
 
 @media(min-width: 768px) and (max-width: 933px) {
   .page {
-    height: calc(40vw * 2.4)
+    min-height: calc(40vw * 2.4)
   }
 }
 
 @media only screen and (max-width: 933px) and (orientation: landscape) {
   .page {
-    height: calc(40vw * 2.8);
+    min-height: calc(40vw * 2.8);
   }
 }
 /* 
@@ -97,13 +98,13 @@ body {
 
 @media (min-width: 1190px) {
   .page {
-    height: calc(40vw * 1.45);
+    min-height: calc(40vw * 1.45);
   }
 }
 
 @media (min-width:1500px ) {
   .page {
-    height: calc(40vw * 1.2);
+    min-height: calc(40vw * 1.2);
   }
 }
 /*

@@ -25,6 +25,8 @@ function Page3() {
               local insider
             </p>
           </section>
+        </div>
+        <div>
           <section className="content-1-2">
             <h2 className="head2">
               1.2 HOW WE RESEARCH: THЕ
@@ -53,7 +55,7 @@ function Page3() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Page3;
