@@ -4,14 +4,13 @@
   background-image: url("../assets/sakuara.avif");
   background-size: cover;
   background-position: center;
-  min-height: 100%;
+  min-height: stretch;
   font-family: var(--font-family-montserrat);
 }
 
 .page-2 .left-part {
     max-width: 65%;
     min-height: stretch;
-    /* height: 100%; */
     font-size: smaller;
     background-color: #e10808a8;
     justify-content: space-between;
@@ -20,7 +19,7 @@
 
 .page-2 .logo-part {
   align-self: flex-start;
-  margin-top: auto;
+  margin-top: 12rem;
 }
 
 .page-2 .logo-part img {

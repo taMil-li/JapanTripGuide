@@ -40,7 +40,7 @@ body {
   align-items: center;
   color: #fff;
   background-color: var(--bg-color);
-  font-family: var(--font-family-sans);
+  /* font-family: var(--font-family-sans); */
   max-width: var(--max-site-width);
   font-display: swap;
 }

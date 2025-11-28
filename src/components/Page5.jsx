@@ -45,7 +45,7 @@ function Page5() {
             <h4 className="sub-head-3">COST SAVING TIP:</h4>
             <p className="para">
               Many Michelin-starred restaurants (e.g., Ginza Kojyu, Sushi Saito,
-              Narisawa) offer lunch menus with dinnerquality food at 50-70%
+              Narisawa) offer lunch menus with dinner quality food at 50-70%
               lower cost.
             </p>
           </fieldset>

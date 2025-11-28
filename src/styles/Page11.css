@@ -8,7 +8,7 @@
   align-items: stretch;
   font-family: var(--font-family-gilroy-thin);
 }
-.page-11 .fourth { background-color: #e108083a; min-height: stretch; width: 10%; }
+.page-11 .fourth { --font-family-sansbackground-color: #e108083a; min-height: stretch; width: 10%; }
 .page-11 .third { background-color: #e1080878; width: 30%; min-height: stretch;  display:flex; align-items:center; justify-content:center; }
 .page-11 .second { background-color: #fe0202af; width: 30%; min-height: stretch;  display:flex; align-items:center; justify-content:center; }
 .page-11 .first { padding: 20px; background-color: #fff; width: 30%; min-height: stretch;  display:flex; flex-direction:column; }
