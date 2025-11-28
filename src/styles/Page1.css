@@ -33,6 +33,7 @@
 .page-1 .logo-part {
   align-self: flex-start;
   margin-bottom: auto;
+  margin-left: -40px;
 }
 
 .page-1 .logo-part img {
@@ -101,7 +102,7 @@
   position: relative;
   margin-left: 30%;
   right: 0;
-  min-height: inherit; 
+  min-height: stretch; 
   width: 20%;
   color: #e108087c;
   background-color: #e108087c;
