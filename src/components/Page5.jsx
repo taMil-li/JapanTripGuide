@@ -40,16 +40,16 @@ upper-end sushi/Wagyu steak houses)
             <div className="head3-container">
               <h3 className="head3">Smart Finance Strategy</h3>
             </div>
-            <h4 className="sub-head-1">CHALLENGE</h4>
+            <h4 className="sub-head">CHALLENGE</h4>
             <p className="para">
               Strict vegetarian food is hard to find in Japan.
             </p>
-            <h4 className="sub-head-2">STRAEGY:</h4>
+            <h4 className="sub-head">STRAEGY:</h4>
             <p className="para">
               Book Shojin Ryori (Zen Buddhist cuisine) - fully vegetarian/vegan,
               Michelin-quality, no fish stock (dashi).
             </p>
-            <h4 className="sub-head-3">COST SAVING TIP:</h4>
+            <h4 className="sub-head">COST SAVING TIP:</h4>
             <p className="para">
               Many Michelin-starred restaurants (e.g., Ginza Kojyu, Sushi Saito,
               Narisawa) offer lunch menus with dinner quality food at 50-70%

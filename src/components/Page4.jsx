@@ -39,13 +39,13 @@ function Page4(props) {
             <div className="head3-container">
               <h3 className="head3">Smart Finance Strategy</h3>
             </div>
-            <h4 className="sub-head-1">STRAEGY 1:</h4>
+            <h4 className="sub-head">STRAEGY 1:</h4>
             <p className="para">
               Use Amex Platinum India Concierge or programs like Hyatt Privé /
               Marriott STARS. Benefits include free room upgrades and
               complimentary daily breakfast.
             </p>
-            <h4 className="sub-head-2">STRAEGY 2:</h4>
+            <h4 className="sub-head">STRAEGY 2:</h4>
             <p className="para">
               MIMARU hotels are ideal. Offer spacious apartment-style suites
               with kitchens, unlike typical small Japanese hotel rooms.
