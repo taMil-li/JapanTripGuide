@@ -24,7 +24,7 @@ function JapanTripGuidePages() {
 
   const fetchExpenses = async () => {
     try {
-      const resp = await fetch("http://localhost:5000/get-expenses");
+      const resp = await fetch("https://japantripguidebackend.onrender.com/get-expenses");
       if (resp.ok) {      
         const data = await resp.json();
         setExpenses(data.data[0]);

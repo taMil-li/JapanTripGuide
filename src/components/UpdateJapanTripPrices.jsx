@@ -16,7 +16,7 @@ function UpdateJapanTripPrices() {
     setLoading(true);
     setMsg(null);
     try {
-      const res = await fetch("http://localhost:5000/get-expenses");
+      const res = await fetch("https://japantripguidebackend.onrender.com/get-expenses");
       const j = await res.json();
       let doc = null;
       if (j && j.data && Array.isArray(j.data) && j.data.length) {
@@ -144,7 +144,7 @@ function UpdateJapanTripPrices() {
 
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:5000/update-prices", {
+      const res = await fetch("https://japantripguidebackend.onrender.com/update-prices", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
