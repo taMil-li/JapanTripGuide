@@ -1,6 +1,11 @@
 import "../styles/Page4.css";
 
-function Page6() {
+function Page6({expenses}) {
+  const transport = expenses?.transport ?? {};
+  const publicTransport = transport?.public ?? {};
+  const privateTransport = transport?.private ?? {};
+  const localICCard = transport?.localICCard ?? {};
+
   return (
     <div className="page-4 page-6 page d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -21,13 +26,13 @@ function Page6() {
           <br />
           <h4 className="head2">LOCAL TRANSPORT (7 NIGHTS)</h4>
           <p className="para">
-            Public Transport: ~₹25,000 - ₹35,000 (Shinkansen/bullet trains with
+            Public Transport: ~₹{publicTransport?.from ?? "0"} - ₹{publicTransport?.to ?? "0"} (Shinkansen/bullet trains with
             7-Day Japan Rail Pass) <br />
             <br />
-            Private Transport:~₹45,000 - ₹90,000+ (Bullet Trains + Frequent
+            Private Transport:~₹{privateTransport?.from ?? "0"} - ₹{privateTransport?.to ?? "0"}+ (Bullet Trains + Frequent
             Taxis) <br />
             <br /> If you only stay in one city, a local IC card (like
-            Suica/Pasmo) would be much cheaper (approx. ₹7,000 ₹10,000).
+            Suica/Pasmo) would be much cheaper (approx. ₹{localICCard?.from ?? "0"} ₹{localICCard?.to ?? "0"}).
           </p>
         </section>
         <br />

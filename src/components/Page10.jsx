@@ -1,6 +1,8 @@
 import "../styles/Page4.css";
 
-function Page10() {
+function Page10({expenses}) {
+  const {visa, simOrPocketWifi, travelInsurance} = expenses;
+
   return (
     <div className="page-4 page-10 page d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -18,12 +20,12 @@ function Page10() {
           <br />
           <br />
           <p className="para">
-            Visa (Single-Entry Tourist): 500 - ₹5,000 (The visa fee itself is
+            Visa (Single-Entry Tourist): {visa?.from ?? '0'}- ₹{visa?.to ?? '0'} (The visa fee itself is
             low (approx. ₹500), but agents/VFS services add processing fees,
             bringing the common cost up)
             <br />
-            <br /> SIM/Pocket Wi-Fi (7 Days): 3,000 -₹5,000 Travel Insurance (7
-            Days): ₹3,000 - ₹5,000
+            <br /> SIM/Pocket Wi-Fi (7 Days): {simOrPocketWifi?.from ?? '0'} -₹{simOrPocketWifi?.to ?? '0'} Travel Insurance (7
+            Days): ₹{travelInsurance?.from ?? '0'} - ₹{travelInsurance?.to ?? '0'}
             <br />
             <br />
           </p>

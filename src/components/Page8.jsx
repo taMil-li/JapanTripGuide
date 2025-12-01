@@ -1,6 +1,8 @@
 import "../styles/Page4.css";
 
-function Page8() {
+function Page8({expenses}) {
+  const {miscellaneous} = expenses;
+
   return (
     <div className="page-4 page-8 page d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -20,7 +22,7 @@ function Page8() {
           <br />
           <h4 className="head2">MISCELLANEOUS (SHOPPING/TIPS)</h4>
           <p className="para">
-            Miscellaneous :~₹15,000 - ₹50,000+ This is highly variable. The
+            Miscellaneous :~₹{miscellaneous?.from ?? "0"} - ₹{miscellaneous?.to}+ This is highly variable. The
             lower end is for snacks and small souvenirs; the higher end includes
             clothing, electronics, anime/manga goods, or high-value gifts. This
             is a placeholder and should be adjusted to your shopping habits.

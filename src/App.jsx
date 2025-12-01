@@ -16,19 +16,38 @@ const Page12 = lazy(() => import("./components/Page12.jsx"));
 import "./App.css";
 
 function App() {
+  const [expenses, setExpenses] = React.useState({});
+
+  React.useEffect(() => {
+    fetchExpenses();
+  }, []);
+
+  const fetchExpenses = async () => {
+    try {
+      const resp = await fetch("http://localhost:5000/get-expenses");
+      if (resp.ok) {
+        const data = await resp.json();
+        setExpenses(data.data[0]);
+      }
+
+    } catch (error) {
+      console.error("Error fetching expenses: ", error.message);
+    }
+  };
+  
   return (
     <>
       <Page1 />
       <Suspense fallback={<div className="loading"></div>}>
         <Page2 />
         <Page3 />
-        <Page4 />
-        <Page5 />
-        <Page6 />
-        <Page7 />
-        <Page8 />
-        <Page9 />
-        <Page10 />
+        <Page4 expenses={expenses} />
+        <Page5 expenses={expenses} />
+        <Page6 expenses={expenses} />
+        <Page7 expenses={expenses} />
+        <Page8 expenses={expenses} />
+        <Page9 expenses={expenses} />
+        <Page10 expenses={expenses} />
         <Page11 />
         <Page12 />
       </Suspense>

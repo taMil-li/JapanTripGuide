@@ -1,6 +1,11 @@
 import "../styles/Page4.css";
 
-function Page5() {
+function Page5({expenses}) {
+  const restaurant = expenses?.restaurant ?? {};
+  const star3 = restaurant?._3Star ?? {};
+  const star4 = restaurant?._4Star ?? {};
+  const star5 = restaurant?._5Star ?? {};
+
   return (
     <div className="page-4 page-5 page d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -19,12 +24,14 @@ function Page5() {
           <br />
           <h4 className="head2">Dining (7 Nights)</h4>
           <p className="para">
-            3 Star restaurants: ~₹17,500 - ₹31,500 (Local and casual dining){" "}
+            3 Star restaurants: ~₹{star3?.from ?? "0"} - ₹{star3?.to ?? "0"} (Local and casual dining){" "}
             <br />
-            <br /> 4-star Hotels: ~₹56,000 - ₹105,000 (Candeo, Hotel Niwa, Hotel
-            Mariners' Court Tokyo) <br />
-            <br /> 5-star Hotels: ~140,000 - 350,000+ (Dai-ichi Hotel,
-            Millennium Mitsui Garden Hotel, Mimaru (Family Apts))
+            <br /> 4 Star restaurants: ~₹{star4?.from ?? '0'} - ₹{star4?.to ?? "0"}
+(Sit-down restaurants, sushi/yakitori and Occasional
+hotel dining) <br />
+            <br /> 5 Star restaurants: ~₹{star5?.from ?? '0'} -₹{star5?.to ?? '0'}+
+(Fine dining, Kaiseki meals, hotel buffets and
+upper-end sushi/Wagyu steak houses)
           </p>
         </section>
         <br />

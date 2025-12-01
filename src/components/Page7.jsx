@@ -1,6 +1,10 @@
 import "../styles/Page4.css";
 
-function Page7() {
+function Page7({expenses}) {
+  const {attractions} = expenses;
+
+
+
   return (
     <div className="page-4 page page-7 d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -20,10 +24,10 @@ function Page7() {
           <br />
           <h4 className="head2">ATTRACTIONS (ENTRY/TOURS)</h4>
           <p className="para">
-            Attractions (Entry/Tours) : ~ 10,000 - 20,000 (Covers admission to
+            Attractions (Entry/Tours) : ~ {attractions?.from ?? "0"} - {attractions?.to ?? '0'} (Covers admission to
             major temples, one special experience, a theme park day pass.Many
             shrines and parks are free.) <br />
-            <br /> Additionals: ~40,000 (Disney Premier Access, TeamLab, Shibuya
+            <br /> Additionals: ~{attractions?.additionals ?? "0"} (Disney Premier Access, TeamLab, Shibuya
             Sky along with common attractions)
             <br />
           </p>

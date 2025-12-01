@@ -1,6 +1,11 @@
 import "../styles/Page4.css";
 
-function Page9() {
+function Page9({expenses}) {
+  const {flights} = expenses;
+  const economic = flights?.economic ?? {};
+  const business = flights?.business ?? {};
+  const firstClass = flights?.firstClass ?? {};
+
   return (
     <div className="page-4 page-9 page d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -17,10 +22,10 @@ function Page9() {
           <br />
           <h4 className="head2">FLIGHTS (ROUND TRIP)</h4>
           <p className="para">
-            Economic: ₹45,000 - ₹80,000 <br />
-            <br /> Business :₹150,000 ₹300,000 <br />
+            Economic: ₹{economic?.from ?? "0"} - ₹{economic?.to ?? '0'} <br />
+            <br /> Business :₹{business?.from ?? "0"} ₹{business?.to ?? "0"} <br />
             <br />
-            First Class: ₹300,000 - ₹600,000+ (Family Apts))
+            First Class: ₹{firstClass?.from ?? '0'} - ₹{firstClass?.to ?? '0'}+ (Family Apts))
           </p>
         </section>
         <br />

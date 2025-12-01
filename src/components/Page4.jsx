@@ -1,6 +1,12 @@
 import "../styles/Page4.css";
 
-function Page4() {
+function Page4(props) {
+  const {expenses} = props;
+  const hotelPrice = expenses?.hotelPrice ?? {};
+  const _3Star = hotelPrice?._3Star ?? {};
+  const _4Star = hotelPrice?._4Star ?? {};
+  const _5Star = hotelPrice?._5Star ?? {};
+
   return (
     <div className="page-4 page d-flex">
       <div className="left-part d-flex flex-column justify-content-center">
@@ -19,11 +25,11 @@ function Page4() {
           <br />
           <h4 className="head2">ACCOMMODATION (7 Nights)</h4>
           <p className="para">
-            3-star Hotels: ~₹31,500 - ₹56,000 (Pearl Hotel Kayabachō Tokyo,
+            3-star Hotels: ~₹{_3Star?.from ?? "0"} - ₹{_3Star?.to ?? "0"} (Pearl Hotel Kayabachō Tokyo,
             Toyoko Inn) <br />
-            <br /> 4-star Hotels: ~₹56,000 - ₹105,000 (Candeo, Hotel Niwa, Hotel
+            <br /> 4-star Hotels: ~₹{_4Star?.from ?? "0"} - ₹{_4Star?.to ?? "0"} (Candeo, Hotel Niwa, Hotel
             Mariners' Court Tokyo) <br />
-            <br /> 5-star Hotels: ~140,000 - 350,000+ (Dai-ichi Hotel,
+            <br /> 5-star Hotels: ~{_5Star?.from ?? "0"} - {_5Star?.to ?? "0"}+ (Dai-ichi Hotel,
             Millennium Mitsui Garden Hotel, Mimaru (Family Apts))
           </p>
         </section>
