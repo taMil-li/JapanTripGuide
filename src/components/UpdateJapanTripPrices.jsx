@@ -231,8 +231,8 @@ function UpdateJapanTripPrices() {
   if (!data) {
     return (
       <div className="page-4 page ujtp-container">
-        <h2 className="head1">Update Prices</h2>
-        <p className="para">Loading current prices…</p>
+        <h2 className="head1">Update Japan Trip Prices</h2>
+        <div className="loading-animation"></div>
         {msg && (
           <div
             className={`ujtp-msg ${msg.type === "error" ? "error" : "success"}`}
